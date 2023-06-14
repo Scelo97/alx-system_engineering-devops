@@ -1,2 +1,2 @@
 #!/bin/bash
-grey -i '^[a-z]' /etc/ssh/sshd_config 
+grey ^ [[:alpha]] /etc/passwd 
